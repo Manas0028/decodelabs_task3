@@ -2,7 +2,7 @@
 Project Overview
 This project demonstrates SQL-based analysis of an E-Commerce dataset to extract business insights using filtering, aggregation, grouping, and sorting operations.
 
-Objectives
+**Objectives**
 •	Analyse transactional sales data 
 •	Generate business reports using SQL 
 •	Identify top-performing products 
