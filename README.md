@@ -1,5 +1,6 @@
 **SQL Data Analysis Project**
-Project Overview
+
+**Project Overview**
 This project demonstrates SQL-based analysis of an E-Commerce dataset to extract business insights using filtering, aggregation, grouping, and sorting operations.
 
 **Objectives**
@@ -9,13 +10,15 @@ This project demonstrates SQL-based analysis of an E-Commerce dataset to extract
 •	Evaluate customer purchasing behaviour 
 •	Examine payment preferences and order status trends 
 
-Tools & Technologies
+
+**Tools & Technologies**
 •	SQL 
 •	MySQL 
 •	Excel 
 •	GitHub 
 
-Skills Demonstrated
+
+**Skills Demonstrated**
 •	SQL Queries 
 •	Data Analysis 
 •	Data Aggregation 
@@ -24,28 +27,32 @@ Skills Demonstrated
 •	Data Cleaning 
 •	Problem Solving 
 
-Dataset Information
+
+
+**Dataset Information**
 Metric	Value
-Total Records	1,200
-Dataset Type	E-Commerce Orders
-Analysis Tool	SQL
-Project Type	Business Intelligence
+Total Records - 1,200
+Dataset Type - E-Commerce Orders
+Analysis Tool - SQL
+Project Type - Business Intelligence
 
-Key Findings
+
+**Key Findings**
 KPI	Result
-Total Orders	1,200
-Total Revenue	₹1,264,761.96
-Average Order Value	₹1,053.97
-Top Product	Chair
-Most Used Payment Method	Online
+Total Orders - 1,200
+Total Revenue - ₹1,264,761.96
+Average Order Value - ₹1,053.97
+Top Product -	Chair
+Most Used Payment Method - Online
 
-Business Insights
+
+**Business Insights**
 •	Chairs generated the highest revenue. 
 •	Online payments are preferred by customers. 
 •	Order cancellations and returns require operational improvements. 
 •	Revenue is concentrated among a few high-performing products. 
 
-SQL Queries (15 Queries)
+**SQL Queries (15 Queries)**
 1. Total Orders
 SELECT COUNT(*) AS total_orders
 FROM orders;
@@ -137,29 +144,31 @@ FROM orders
 GROUP BY category
 HAVING revenue > 100000;
 
-Project Results
+
+**Project Results**
 Revenue by Top Products
-Product	Revenue
-Chair -	₹195,620.11
-Printer	- ₹195,612.61
+Product Revenue
+Chair - ₹195,620.11
+Printer - ₹195,612.61
 Laptop	- ₹192,126.56
-Tablet -	₹186,568.95
-Monitor -	₹175,651.41
+Tablet - ₹186,568.95
+Monitor - ₹175,651.41
 
-Order Status Distribution
+
+**Order Status Distribution**
 Status	Orders
-Cancelled -	250
-Returned	- 247
-Pending	- 237
-Shipped	- 235
-Delivered	- 231
+Cancelled - 250
+Returned - 247
+Pending - 237
+Shipped - 235
+Delivered - 231
 
-Payment Method Distribution
+**Payment Method Distribution**
 Method	- Orders
 Online	- 258
-Cash	- 246
-Credit Card	- 234
-Debit Card	- 232
-Gift Card	- 230
+Cash - 246
+Credit Card - 234
+Debit Card - 232
+Gift Card - 230
 
  
